@@ -1,0 +1,56 @@
+/* Academic Calender Made by Mahek :) */
+body {
+    text-align: center;
+    background-color: #7fb4bb;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    cursor: pointer;
+}
+h2{
+    display: inline-flex;
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    background-color: rgb(0, 112, 139);
+    border-radius: 20px;
+
+}
+table {
+    margin: auto;
+}
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+tr:nth-child(odd) {
+  background-color: #d6d6d6;
+}
+th,
+td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+footer{
+    text-align: center;
+    margin: auto;
+}
+footer p {
+    display: inline-flex;
+    color: #fff;
+    background-color: rgb(0, 112, 139);
+    margin-top:  20px;
+    padding: 5px;
+    border-radius: 10px;
+}
